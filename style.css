@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: sans-serif, Oswald;
+}
+
+body{
+	background: #9F9ABB;
+	height: 100%;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	background-color: #FFF4CB;
+	position: fixed;
+}
+
+header h2{
+	padding-top: 20px;
+	text-align: center;
+	height: 50px;
+	text-transform: uppercase;
+}
+
+
+nav ul{
+	
+	background-color: #8A81C1;
+	opacity: 0.3;
+	width: 70%;
+	height: 50px;
+	margin-left: 15%;
+	margin-right: 15%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+nav ul li{
+	text-align: center;
+	background: red;
+	border-bottom: 2px solid black;
+}
+
+nav ul li a{
+	display: block;
+	color: black;
+}
+.wrapper{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	height: 100%;
+	background-color: #8A81C1;
+	padding-top: 250px;
+}
+
+
+.wrapper .info{
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.section h2{
+	text-align: center;
+	color: white;
+}
+
+.section div{
+	margin-top: 25px;
+	margin-bottom: 50px;
+	line-height: 30px;
+}
+
+span{
+	color: blue;
+	text-decoration-style: italic;
+}
+
+figure{
+	height: 450px;
+	width: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
